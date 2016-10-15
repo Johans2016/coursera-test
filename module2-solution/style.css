@@ -1,0 +1,12 @@
+body{
+	font-family: "Source Code Pro Black", sans-serif;
+	font-size: 79%;
+	
+}
+h1{
+	text-align: center;
+	margin-top: 4%;
+}
+div{
+	float: left;
+}
