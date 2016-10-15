@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<style>
+
+		* {
+			margin: 0;
+			padding: 0;
+ 			box-sizing: border-box;
+		}
+
+		#padre{			
+			
+			position: relative;
+			left: 8%;
+		}
+
+		p{
+			margin-top: 0px;
+			margin-bottom: 0px;
+			font-size: 90%;
+			color: #100F0F;
+			opacity: 0.8;
+			
+		}
+		p.derecha{
+			padding-top: 3px;
+			padding-bottom: 3px;
+			font-size: 112%;			
+		}
+		.derecha{
+			margin-left: 70%;
+			width: 30%;
+			text-align: center;
+			font-weight: bold;
+			border: 2px solid #00000f;
+
+		}
+
+		.pink{
+			background-color: #E29292;			
+		}
+		.red{
+			background-color: #A52C2C;
+			color: white;			
+		}
+		.yellow{
+			background-color: #E6D18C;			
+		}
+
+		@media (min-width: 992px){
+		#hijo1{
+			background-color: grey;
+			width: 27%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			
+									
+		}
+		#hijo2{
+			background-color: grey;
+			width: 27%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			
+									
+		}
+		#hijo3{
+			background-color: grey;
+			width: 27%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			
+									
+		}		
+		
+	}
+
+	@media (min-width: 768px) and (max-width: 991px){
+		#hijo1{
+			background-color: grey;
+			width: 40%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			
+									
+		}
+		#hijo2{
+			background-color: grey;
+			width: 40%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			
+									
+		}
+		#hijo3{
+			background-color: grey;
+			width: 81%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			clear: left;			
+									
+		}		
+		
+	}
+
+	@media (max-width: 767px){
+		#hijo1{
+			background-color: grey;
+			width: 80%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			
+									
+		}
+		#hijo2{
+			background-color: grey;
+			width: 80%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			clear: left;
+									
+		}
+		#hijo3{
+			background-color: grey;
+			width: 80%;
+			border: 2px solid #00000f;
+			margin-left: 10px;
+			margin-top: 40px;
+			padding-left: 6px;	
+			clear: left;
+									
+		}		
+		
+	}
+	</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+<div id="padre">
+<div id="hijo1">
+   	<p class="derecha pink">Chicken</p>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  	
+</div>
+<div id="hijo2">
+  	<p class="derecha red">Beef</p>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  	
+</div>
+<div id="hijo3">
+  	<p class="derecha yellow">Sushi</p>
+   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+</body>
+</html>
