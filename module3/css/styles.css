@@ -1,0 +1,138 @@
+body{
+	font-size: 16px;
+	color: #000;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bold;
+	text-shadow: 1px 0 0 #000;
+}
+div.navbar-brand.pull-left{
+	margin-top: 20px;
+}
+/*header*/
+.navbar {
+border: 3px solid #000;
+border-right: 0;
+border-left: 0;
+height: 100px;
+
+}
+#header-nav{
+	background-color: #97a5a9;
+	border-radius: 0;
+		
+}
+
+.navbar-brand h1{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: .75;
+	color: #000;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-default .navbar-toggle{
+	border-color: #000;
+	border-width: 3px;
+	background-color: #c7c6c7;
+}
+div.collapse {
+	border-top-width: 0;
+}
+
+/*fin header*/
+
+/*home page*/
+div.row {
+	background-color: #c7c6c7;
+	margin-bottom: 40px;
+}
+h2{
+	text-align: center;
+	letter-spacing: .1pt;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	font-size: 1.9em;
+	color: #000;	
+}
+
+#pollo, #vaca, #suchi{
+	text-align: center;
+	font-size: 24px;
+	opacity: .8;
+	text-shadow: 1px 1px 1px #222;
+	margin: 10px 0 10px 0;
+}
+div.container {
+	width: 100%;
+}
+
+/*fin home page*/
+
+/*footer*/
+/*footer*/
+
+/*desktop version*/
+/*fin desktop version*/
+
+/*tablet version*/
+@media(min-width: 768px){
+	
+	div.row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	h2{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+/*fin tablet version*/
+
+/*mobile version*/
+@media(max-width: 767px){
+
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #000;       
+  }
+#collapsable-nav{
+	background-color: #fff;
+	text-align: center;
+	
+
+}
+hr {
+	border-top: 2px solid #000;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+
+h2 {
+	font-size: 2.6em;
+	margin-top: 26%;
+	margin-bottom: 5%;
+}
+div.row{
+	margin: 0 10% 10% 10%;
+}
+#pollo, #vaca, #suchi {
+	font-size: 2.4em;
+	text-shadow: none;
+}
+div.parrafos {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+}
+/*fin mobile version*/
+/**/
+/**/
+/**/
